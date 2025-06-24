@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "croc-dms"
+version = "0.1.0"
+dependencies = [
+    "langchain-community",
+    "langchain",
+    "langchain-huggingface",
+    "scikit-learn",
+    "nltk",
+    "razdel",
+    "sentence-transformers",  
+]
